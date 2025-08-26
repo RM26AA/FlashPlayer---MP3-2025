@@ -1,11 +1,65 @@
-# Sample Snack app
+# 🎶 FlashPlayer  
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+FlashPlayer is a lightweight MP3 and radio player built with **Expo**.  
+It’s designed to run on iOS (via Expo Go) and web, offering a clean white & pink interface.  
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## ✨ Features
+- 🎵 Import and play your own MP3 files  
+- 🎶 Built-in playback controls (play, stop, rewind, forward, progress bar & timer)  
+- 📻 Stream live **UK radio stations** via the [Radio Browser API](https://www.radio-browser.info)  
+- 🔍 Search and filter through uploaded tracks and radio stations  
+- 🧹 Reset option to clear imported tracks  
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## 📱 Screens
+- **Splash Screen** – Animated intro with FlashPlayer logo  
+- **Main Screen** – Search & list of music tracks, import/reset controls, radio option  
+- **Play Screen** – Track details with playback controls and progress bar  
+- **Radio Screen** – Browse & play UK radio stations with search functionality  
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## 🚀 Getting Started
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/flashplayer.git
+cd flashplayer
+```
+
+### 2. Install dependencies
+```
+npm install
+```
+
+### 3. Run in Expo Go
+```
+npx expo start
+```
+
+- Scan the QR code with the Expo Go app on iOS/Android
+- Or open in your browser
+
+## 🛠️ Built With
+
+- Expo – React Native framework
+- expo-av – Audio playback
+- Radio Browser API – Free internet radio database
+
+## 📄 License
+
+- This project is open-source and available under the MIT License.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
